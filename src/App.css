@@ -1,0 +1,63 @@
+.page{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	max-width: 800px;
+}
+
+main{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 4px;
+}
+
+li{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.movies{
+	display: grid;
+	width: 100%;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	padding: 0;
+	gap: 12px;
+}
+
+.movie{
+	text-align: center;
+}
+
+.movie h3, .movie p{
+	margin: 4px;
+
+}
+
+.movie img{
+	border-radius: 8px;
+	margin-top: 12px;
+}
+
+.checkbox-az-form{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 100%;
+	padding: 2px 8px;
+}
+
+.checkbox-az-form label{
+	cursor: pointer;
+	user-select: none;
+}
+
